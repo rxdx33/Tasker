@@ -13,4 +13,4 @@ Basic functionality:
 * All tasks are saved to local files, not the cloud! All active tasks are stored in "taskerActive.txt" and completed in "taskerCompleted.txt", in the local directory of the app
 
 ## Main Screen
-![Preview]((https://i.imgur.com/2sxiCLp.png))
+![Preview](https://i.imgur.com/2sxiCLp.png)
