@@ -6,7 +6,7 @@ import os
 
 # TODO
 # add word wrapping or worst case, sideways scroll bar?
-# fix save and load fuynctionality causing order to be reversed after closing and reopening app
+# fix save and load functionality causing order to be reversed after closing and reopening app
 
 def addTask(event=None):
     task = taskEntry.get()
@@ -39,7 +39,7 @@ def removeAllTasks():
         messagebox.showerror("Error", "No tasks to delete.")
 
 def removeCompTasks():
-    if tasksList.get(0):
+    if os.path.exists("taskerCompleted.txt"):
         res = messagebox.askquestion("Remove Completed All Tasks", "Are you sure you want to delete all completed tasks?")
         if res == "yes":
             os.remove("taskerCompleted.txt")
